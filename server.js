@@ -5,7 +5,7 @@ const foodRoutes = require('./routes/foodRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 mongoose.connect('mongodb://0.0.0.0:27017/Food', {
